@@ -3,4 +3,6 @@ mvn exec:java "-Dexec.mainClass=srp.after.Main"
 OCP
 mvn exec:java "-Dexec.mainClass=ocp.after.Main"
 LSP
-mvn exec:java "-Dexec.mainClass=lsp.before.Main"
+mvn exec:java "-Dexec.mainClass=lsp.after.Main"
+ISP
+mvn exec:java "-Dexec.mainClass=isp.after.Main"
