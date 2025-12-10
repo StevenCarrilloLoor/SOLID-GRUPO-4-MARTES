@@ -6,3 +6,5 @@ LSP
 mvn exec:java "-Dexec.mainClass=lsp.after.Main"
 ISP
 mvn exec:java "-Dexec.mainClass=isp.after.Main"
+DIP
+mvn exec:java "-Dexec.mainClass=dip.after.Main"
