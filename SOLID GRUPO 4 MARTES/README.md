@@ -62,11 +62,12 @@ mvn exec:java "-Dexec.mainClass=ocp.after.Main"
 
 **BEFORE**
 
-![OCP Before](screenshots/ocp_before.png)
+![alt text](image-3.png)
 
 **AFTER**
 
-![OCP After](screenshots/ocp_after.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
 
 **Reflexión**: Podemos agregar nuevos tipos sin modificar código existente.
 
@@ -90,11 +91,12 @@ mvn exec:java "-Dexec.mainClass=lsp.after.Main"
 
 **BEFORE**
 
-![LSP Before](screenshots/lsp_before.png)
+![alt text](image-6.png)
 
 **AFTER**
 
-![LSP After](screenshots/lsp_after.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
 
 **Reflexión**: Ninguna clase implementa métodos que no puede cumplir.
 
@@ -118,11 +120,12 @@ mvn exec:java "-Dexec.mainClass=isp.after.Main"
 
 **BEFORE**
 
-![ISP Before](screenshots/isp_before.png)
+![alt text](image-9.png)
 
 **AFTER**
 
-![ISP After](screenshots/isp_after.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
 
 **Reflexión**: Cada clase implementa solo los métodos que necesita.
 
@@ -146,11 +149,12 @@ mvn exec:java "-Dexec.mainClass=dip.after.Main"
 
 **BEFORE**
 
-![DIP Before](screenshots/dip_before.png)
+![alt text](image-12.png)
 
 **AFTER**
 
-![DIP After](screenshots/dip_after.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
 
 **Reflexión**: Usamos inyección de dependencias para mayor flexibilidad.
 
